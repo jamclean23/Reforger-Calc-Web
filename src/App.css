@@ -1,0 +1,84 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  max-width: 22rem;
+  padding: 2rem;
+  background-color: rgb(36, 35, 58);
+}
+
+body {
+  background-color: rgb(48, 48, 49);
+  padding-inline: .5rem;
+  padding-top: .75rem;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+#inputsRow {
+  display: flex;
+  justify-content: left;
+}
+
+.topRowItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: .5rem;
+}
+
+.topRowItem input {
+  max-width: 3rem;
+}
+
+#result {
+  border: none;
+  background-color: rgb(234, 246, 250);
+  text-align: center;
+}
+
+#unitsInputWrapper {
+
+}
+
+#milsInputWrapper {
+
+}
+
+#clearBtn {
+  margin-top: 1rem;
+  width: 4rem;
+  height: 2.5rem;
+}
+
+#buttonsWrapper {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 4rem);
+  gap: .5rem;
+}
+
+#buttonsWrapper button {
+  height: 2.5rem;
+}
+
+.note {
+  color: white;
+}
+
+#credit {
+  color: rgb(133, 133, 133);
+  margin-top: 2rem;
+  margin-bottom: .2rem;
+}
